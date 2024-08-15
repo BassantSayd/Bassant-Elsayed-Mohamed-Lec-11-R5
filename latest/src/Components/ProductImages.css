@@ -1,0 +1,35 @@
+.product-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
+  }
+  
+  .thumbnail-images img {
+    width:65px;
+    height: 65px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+  }
+  
+  .thumbnail-images img:hover {
+    border: 2px solid #ff7d1a;
+  }
+
+  .product-images{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }

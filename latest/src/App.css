@@ -1,0 +1,12 @@
+.app {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #f4f4f9;
+  max-height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .product-details {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
